@@ -1,0 +1,19 @@
+.notFound h1{
+    text-align: center;
+    color: red;
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.notFound h4{
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+.notFound .back{
+    text-align: center;
+    display: block;
+    background: #dddd;
+    padding: 20px;
+}

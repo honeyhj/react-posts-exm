@@ -1,0 +1,30 @@
+.home h1{
+    text-align: center;
+    padding: 80px 0;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.home .link{
+    text-decoration: none;
+    color: #ddd;
+}
+.home .post-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home .post-container .post-item{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
